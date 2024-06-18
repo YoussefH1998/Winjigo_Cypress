@@ -1,0 +1,17 @@
+{
+  "name": "automation_project3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "headTest": "npx cypress run --headed",
+    "recordDashBoardTest": "npx cypress run --record --key 899899",
+    "GreenKartTest": "npx cypress run --spec\"cypress/integration/GreenKart/*\"   "
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^10.8.0"
+  }
+}
